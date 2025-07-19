@@ -1,0 +1,7 @@
+# Python dependencies for the image gallery web application
+# Flask - Web framework for serving the application
+# Pillow - Image processing library for handling uploaded images
+# Werkzeug - WSGI utilities (included with Flask but listed for image upload handling)
+Flask==2.3.3
+Pillow==10.0.1
+Werkzeug==2.3.7

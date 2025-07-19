@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom MtG x LoL Card Gallery</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body data-theme="light">
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Custom MtG x LoL Card Gallery</h1>
+            <p class="subtitle">Magic Legends for each League of Legends Champion</p>
+        </header>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <div class="gallery-header">
+                <div class="search-container">
+                    <div class="search-input-wrapper">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" id="searchInput" class="search-input" placeholder="Search cards by name, type, region, or text...">
+                        <button id="clearSearch" class="clear-search-btn" style="display: none;">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="gallery-controls">
+                    <div class="sort-controls">
+                        <label for="sortSelect">Sort by:</label>
+                        <select id="sortSelect" class="sort-select">
+                            <option value="alphabetical">Alphabetical</option>
+                            <option value="color">Color</option>
+                            <option value="region">Region</option>
+                        </select>
+                    </div>
+                    <div class="gallery-stats">
+                        <button id="themeToggle" class="theme-toggle" title="Toggle light/dark mode">
+                            <i class="fas fa-sun theme-icon light-icon"></i>
+                            <i class="fas fa-moon theme-icon dark-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            {% if images %}
+                <div class="gallery-container" id="galleryContainer">
+                    <div class="gallery-grid" id="galleryGrid">
+                        {% for image in images %}
+                            <div class="gallery-item" 
+                                 data-filename="{{ image.filename }}"
+                                 data-title="{{ image.title }}"
+                                 data-description="{{ image.description }}"
+                                 data-type="{{ image.type }}"
+                                 data-text-box="{{ image.text_box }}"
+                                 data-artist="{{ image.artist }}"
+                                 data-color="{{ image.color | join(',') }}"
+                                 data-region="{{ image.region | join(',') }}"
+                                 data-flippable="{{ image.flippable | lower }}"
+                                 data-back-url="{{ image.back_url if image.flippable else '' }}"
+                                 data-tokens="{{ image.tokens | tojson }}">
+                                <div class="image-container">
+                                    <div class="card-flip-container">
+                                        <div class="card-face card-front">
+                                            <img src="{{ url_for('static', filename='uploads/' + image.filename) }}" 
+                                                 alt="{{ image.title }}" 
+                                                 loading="lazy">
+                                        </div>
+                                        {% if image.flippable %}
+                                        <div class="card-face card-back">
+                                            <img src="{{ image.back_url }}" 
+                                                 alt="{{ image.title }} (Back)" 
+                                                 loading="lazy">
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                    {% if image.flippable %}
+                                    <button class="flip-btn" title="Flip card">
+                                        <i class="fas fa-sync-alt"></i>
+                                    </button>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% else %}
+                <div class="empty-gallery">
+                    <i class="fas fa-images empty-icon"></i>
+                    <h3>No images in gallery</h3>
+                    <p>No images found in the gallery folder.</p>
+                </div>
+            {% endif %}
+        </section>
+    </div>
+
+    <!-- Image Modal for full view -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <button class="modal-nav modal-nav-prev" onclick="navigateModal('prev')" title="Previous card">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="modal-nav modal-nav-next" onclick="navigateModal('next')" title="Next card">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="modal-layout">
+                <div class="modal-image-container">
+                    <div class="modal-card-flip-container">
+                        <div class="modal-card-face modal-card-front">
+                            <img id="modalImage" src="" alt="Full size image">
+                        </div>
+                        <div class="modal-card-face modal-card-back">
+                            <img id="modalImageBack" src="" alt="Full size image (Back)">
+                        </div>
+                    </div>
+                    <button id="modalFlipBtn" class="modal-flip-btn" title="Flip card" style="display: none;">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                </div>
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <div class="modal-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Type:</span>
+                            <span id="modalType"></span>
+                        </div>
+                        <div class="detail-row text-box-row">
+                            <span class="detail-label">Text Box:</span>
+                            <div id="modalTextBox"></div>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Regions:</span>
+                            <span id="modalRegion"></span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Artist:</span>
+                            <span id="modalArtist"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tokens Section -->
+            <div id="tokensSection" class="tokens-section" style="display: none;">
+                <h3 class="tokens-header">Tokens</h3>
+                <div id="modalTokens" class="tokens-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Pass token data to JavaScript
+        window.tokenData = {
+            {% for image in images %}
+            {{ image.filename | tojson }}: {{ image.tokens | tojson }}{% if not loop.last %},{% endif %}
+            {% endfor %}
+        };
+    </script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
