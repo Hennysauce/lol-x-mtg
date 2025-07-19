@@ -21,7 +21,7 @@ class GalleryImage:
         self.color = color or []
         self.region = region or []
         self.flippable = flippable if flippable is not None else False
-        self.url = f"static/uploads/{filename}"
+        self.url = f"/static/uploads/{filename}"
         # Generate back image URL if flippable
         self.back_url = self._get_back_filename(filename) if self.flippable else None
         # Get token information
