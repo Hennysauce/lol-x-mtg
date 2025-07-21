@@ -5,16 +5,16 @@ Contains detailed information about each image including title, type, text box c
 
 # Token mapping - maps card filenames to their associated token files
 TOKEN_MAPPING = {
-    'Anivia Cryophoenix.png': ['Anivia_token.png'],
-    'Annie Dark Child.png': ['Annie_token.png'],
-    'Azir Emperor of Shurima.png': ['Azir_token.png', 'Azir_token2.png'],
-    'Elise the Spider Queen.png': ['Elise_token.png'],
-    'Gangplank Saltwater Scourge.png': ['Gangplank_barrel.png'],
-    'Kayn Shadow Reaper.png': ['Kayn_token.png'],
-    'Kled Cantankerous Cavalier.png': ['Kled_token.png'],
-    'Shen Eye of Twilight.png': ['Shen_token.png'],
-    'Viktor Herald of Arcane.png': ['Viktor_token.png'],
-    'Zed Master of Shadows.png': ['Zed_token.png']
+    'Anivia_Cryophoenix.png': ['Anivia_token.png'],
+    'Annie_Dark_Child.png': ['Annie_token.png'],
+    'Azir_Emperor_of_Shurima.png': ['Azir_token.png', 'Azir_token2.png'],
+    'Elise_the_Spider_Queen.png': ['Elise_token.png'],
+    'Gangplank_Saltwater_Scourge.png': ['Gangplank_barrel.png'],
+    'Kayn_Shadow_Reaper.png': ['Kayn_token.png'],
+    'Kled_Cantankerous_Cavalier.png': ['Kled_token.png'],
+    'Shen_Eye_of_Twilight.png': ['Shen_token.png'],
+    'Viktor_Herald_of_Arcane.png': ['Viktor_token.png'],
+    'Zed Master_of_Shadows.png': ['Zed_token.png']
 }
 
 # Token metadata - detailed information about each token
@@ -79,7 +79,7 @@ TOKEN_METADATA = {
 }
 
 IMAGE_METADATA = {
-    'Aatrox Darkin Blade.png': {
+    'Aatrox_Darkin_Blade.png': {
         'title': 'Aatrox, Darkin Blade',
         'type': 'Legendary Creature - God Warrior',
         'text_box':"""Double strike
@@ -90,7 +90,7 @@ IMAGE_METADATA = {
         'color': ['Red', 'Black'],
         'region': ['Runeterra']
     },
-    'Ahri Nine-Tailed Fox.png': {
+    'Ahri_Nine-Tailed_Fox.png': {
         'title': 'Ahri, Nine-Tailed Fox',
         'type': 'Legendary Creature - Human Fox Wizard',
         'text_box': """Prowess
@@ -100,7 +100,7 @@ IMAGE_METADATA = {
         'color': ['Blue', 'White', 'Red'],
         'region': ['Ionia']
     },
-    'Akali Rogue Assassin.png': {
+    'Akali_Rogue_Assassin.png': {
         'title': 'Akali, Rogue Assassin',
         'type': 'Legendary Creature - Human Assassin',
         'text_box': """Deathtouch
@@ -109,7 +109,7 @@ IMAGE_METADATA = {
         'color': ['Black'],
         'region': ['Ionia']
     },
-    'Akshan Rogue Sentinel.png': {
+    'Akshan_Rogue_Sentinel.png': {
         'title': 'Akshan, Rogue Sentinel',
         'type': 'Legendary Creature - Human Rogue',
         'text_box': """Reach, vigilance
@@ -119,7 +119,7 @@ IMAGE_METADATA = {
         'color': ['White', 'Black'],
         'region': ['Shurima']
     },
-    'Alistar the Minotaur.png': {
+    'Alistar_the_Minotaur.png': {
         'title': 'Alistar, the Minotaur',
         'type': 'Legendary Creature - Minotaur Warrior',
         'text_box': """Headbutt — T: Alistar fights target creature an opponent controls.
@@ -128,7 +128,7 @@ IMAGE_METADATA = {
         'color': ['Green', 'Red'],
         'region': ['Runeterra']
     },
-    'Ambessa Matriarch of War.png': {
+    'Ambessa_Matriarch_of_War.png': {
         'title': 'Ambessa, Matriarch of War',
         'type': 'Legendary Creature - Human Warrior',
         'text_box': """At the beginning of each end step, if you didn’t lose life this turn, you get a legacy counter.
@@ -138,7 +138,7 @@ IMAGE_METADATA = {
         'color': ['Red', 'White', 'Black'],
         'region': ['Noxus']
     },
-    'Amumu the Sad Mummy.png': {
+    'Amumu_the_Sad_Mummy.png': {
         'title': 'Amumu, the Sad Mummy',
         'type': 'Legendary Creature - Spirit',
         'text_box': """Deathtouch
@@ -148,7 +148,7 @@ IMAGE_METADATA = {
         'color': ['Black'],
         'region': ['Shurima']
     },
-    'Anivia Cryophoenix.png': {
+    'Anivia_Cryophoenix.png': {
         'title': 'Anivia, Cryophoenix // Egg of Rebirth',
         'type': 'Legendary Creature - Bird Spirit',
         'text_box': """Flying
@@ -159,7 +159,7 @@ IMAGE_METADATA = {
         'region': ['The Freljord'],
         'flippable': True
     },
-    'Annie Dark Child.png': {
+    'Annie_Dark_Child.png': {
         'title': 'Annie, Dark Child',
         'type': 'Legendary Creature - Human Warlock',
         'text_box': """Whenever you cast or copy an instant or sorcery spell, Annie deals 1 damage to any target. If this is the fourth time this ability has resolved this turn, put a stun counter on each creature target opponent controls and create Tibbers, a legendary 6/6 red Demon Bear creature token with haste.""",
@@ -167,7 +167,7 @@ IMAGE_METADATA = {
         'color': ['Red', 'Black', 'Blue'],
         'region': ['Noxus']
     },
-    'Aphelios Weapon of Faith.png': {
+    'Aphelios_Weapon_of_Faith.png': {
         'title': 'Aphelios, Weapon of Faith',
         'type': 'Legendary Creature - Human Ranger',
         'text_box': """At the beginning of your upkeep, choose two:
@@ -180,7 +180,7 @@ IMAGE_METADATA = {
         'color': ['White', 'Blue', 'Black'],
         'region': ['Targon']
     },
-    'Ashe Frost Archer.png': {
+    'Ashe_Frost_Archer.png': {
         'title': 'Ashe, Frost Archer',
         'type': 'Legendary Creature - Human Archer',
         'text_box': """T: Ashe deals 1 damage to target creature. Tap that creature.
@@ -190,7 +190,7 @@ IMAGE_METADATA = {
         'color': ['Blue', 'White'],
         'region': ['The Freljord']
     },
-    'Aurelion Sol.png': {
+    'Aurelion_Sol.png': {
         'title': 'Aurelion Sol',
         'type': 'Legendary Enchantment Creature - God',
         'text_box': """Flying, Ward 3
@@ -200,7 +200,7 @@ IMAGE_METADATA = {
         'color': ['Blue', 'Black', 'Red', 'White'],
         'region': ['Targon']
     },
-    'Aurora Witch Between Worlds.png': {
+    'Aurora_Witch_Between_Worlds.png': {
         'title': 'Aurora, Witch Between Worlds',
         'type': 'Legendary Creature - Human Bunny Wizard',
         'text_box': """Whenever Aurora or another creature you control enters the battlefield from exile, draw a card.
@@ -209,7 +209,7 @@ IMAGE_METADATA = {
         'color': ['Blue'],
         'region': ['The Freljord']
     },
-    'Azir Emperor of Shurima.png': {
+    'Azir_Emperor_of_Shurima.png': {
         'title': 'Azir, Emperor of Shurima',
         'type': 'Legendary Creature - Bird Wizard',
         'text_box': """Landfall — Whenever a land enters the battlefield under your control, create a 2/1 red and white Sand Soldier creature token with vigilance and haste.
@@ -218,7 +218,7 @@ IMAGE_METADATA = {
         'color': ['White', 'Green', 'Red'],
         'region': ['Shurima']
     },
-    'Bard Wandering Caretaker.png': {
+    'Bard_Wandering_Caretaker.png': {
         'title': 'Bard, Wandering Caretaker',
         'type': 'Legendary Creature - Spirit God',
         'text_box': """At the beginning of each player’s upkeep, you may have that player gain 2 life.
@@ -227,7 +227,7 @@ IMAGE_METADATA = {
         'color': ['White'],
         'region': ['Runeterra']
     },
-    'BelVeth Void Empress.png': {
+    'BelVeth_Void_Empress.png': {
         'title': "Bel'Veth, Void Empress",
         'type': 'Legendary Creature - Alien Noble',
         'text_box': """""",
@@ -235,7 +235,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Blue'],
         'region': ['The Void']
     },
-    'Blitzcrank Steam Golem.png': {
+    'Blitzcrank_Steam_Golem.png': {
         'title': 'Blitzcrank, Steam Golem',
         'type': 'Legendary Artifact Creature - Golem',
         'text_box': """""",
@@ -243,7 +243,7 @@ IMAGE_METADATA = {
         'color': [],
         'region': ['Zaun']
     },
-    'Brand Burning Vengeance.png': {
+    'Brand_Burning_Vengeance.png': {
         'title': 'Brand, Burning Vengeance',
         'type': 'Legendary Creature - Human Wizard',
         'text_box': """""",
@@ -251,7 +251,7 @@ IMAGE_METADATA = {
         'color': ['Red'],
         'region': ['Runeterra']
     },
-    'Braum Heart of the Freljord.png': {
+    'Braum_Heart_of_the_Freljord.png': {
         'title': 'Braum, Heart of the Freljord',
         'type': 'Legendary Creature - Human Soldier',
         'text_box': """Defender""",
@@ -259,7 +259,7 @@ IMAGE_METADATA = {
         'color': ['Blue', 'White'],
         'region': ['The Freljord']
     },
-    'Briar Restrained Hunger.png': {
+    'Briar_Restrained_Hunger.png': {
         'title': 'Briar, Restrained Hunger',
         'type': 'Legendary Creature - Horror Berserker',
         'text_box': """Haste, double strike
@@ -270,7 +270,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Red'],
         'region': ['Noxus']
     },
-    'Caitlyn Piltover Sheriff.png': {
+    'Caitlyn_Piltover_Sheriff.png': {
         'title': 'Caitlyn, Piltover Sheriff',
         'type': 'Legendary Creature - Human Detective',
         'text_box': """""",
@@ -278,7 +278,7 @@ IMAGE_METADATA = {
         'color': ['White'],
         'region': ['Piltover']
     },
-    'Camille Steel Shadow.png': {
+    'Camille_Steel_Shadow.png': {
         'title': 'Camille, Steel Shadow',
         'type': 'Legendary Artifact Creature - ',
         'text_box': """""",
@@ -286,7 +286,7 @@ IMAGE_METADATA = {
         'color': [],
         'region': ['Piltover']
     },
-    'Cassiopeia Serpents Embrace.png': {
+    'Cassiopeia_Serpents_Embrace.png': {
         'title': 'Cassiopeia, Serpent’s Embrace',
         'type': 'Legendary Creature - Gorgon Wizard',
         'text_box': """Infect
@@ -296,7 +296,7 @@ IMAGE_METADATA = {
         'color': ['Green', 'Black', 'White'],
         'region': ['Noxus']
     },
-    'ChoGath Terror of the Void.png': {
+    'ChoGath_Terror_of_the_Void.png': {
         'title': 'Cho’Gath, Terror of the Void',
         'type': 'Legendary Creature - Beast Horror',
         'text_box': """""",
@@ -304,7 +304,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Red', 'Green'],
         'region': ['The Void']
     },
-    'Corki Daring Bombardier.png': {
+    'Corki_Daring_Bombardier.png': {
         'title': 'Corki, Daring Bombardier',
         'type': 'Legendary Creature - Yordle Pilot',
         'text_box': """""",
@@ -312,7 +312,7 @@ IMAGE_METADATA = {
         'color': ['Red'],
         'region': ['Bandle City']
     },
-    'Darius Hand of Noxus.png': {
+    'Darius_Hand_of_Noxus.png': {
         'title': 'Darius, Hand of Noxus',
         'type': 'Legendary Creature - Human Warrior',
         'text_box': """""",
@@ -320,7 +320,7 @@ IMAGE_METADATA = {
         'color': ['Red'],
         'region': ['Noxus']
     },
-    'Diana Scorn of the Moon.png': {
+    'Diana_Scorn_of_the Moon.png': {
         'title': 'Diana, Scorn of the Moon',
         'type': 'Legendary Creature - Human',
         'text_box': """""",
@@ -328,7 +328,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'White'],
         'region': ['Targon']
     },
-    'Dr. Mundo.png': {
+    'Dr._Mundo.png': {
         'title': 'Dr. Mundo',
         'type': 'Legendary Creature - Mutant',
         'text_box': """""",
@@ -336,7 +336,7 @@ IMAGE_METADATA = {
         'color': ['Green', 'Black', 'Blue'],
         'region': ['Zaun']
     },
-    'Draven Glorious Executioner.png': {
+    'Draven_Glorious_Executioner.png': {
         'title': 'Draven, Glorious Executioner',
         'type': 'Legendary Creature - Human Ranger',
         'text_box': """""",
@@ -344,7 +344,7 @@ IMAGE_METADATA = {
         'color': ['Red'],
         'region': ['Noxus']
     },
-    'Ekko Who Shattered Time.png': {
+    'Ekko_Who_Shattered_Time.png': {
         'title': 'Ekko, Who Shattered Time',
         'type': 'Legendary Creature - Human Artificer',
         'text_box': """Flash
@@ -354,7 +354,7 @@ IMAGE_METADATA = {
         'color': ['Green', 'Blue'],
         'region': ['Zaun']
     },
-    'Elise the Spider Queen.png': {
+    'Elise_the_Spider_Queen.png': {
         'title': 'Elise, the Spider Queen // Elise, Spider Form',
         'type': 'Legendary Creature - Human Spider',
         'text_box': """Whenever you deal noncombat damage to an opponent, put a Spiderling counter on Elise. 
@@ -367,7 +367,7 @@ IMAGE_METADATA = {
         'region': ['Noxus'],
         'flippable': True
     },
-    'Evelynn Agonys Embrace.png': {
+    'Evelynn_Agonys_Embrace.png': {
         'title': 'Evelynn, Agonys Embrace',
         'type': 'Legendary Creature - Demon Assassin',
         'text_box': """Shroud, deathtouch
@@ -377,7 +377,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Blue'],
         'region': ['Runeterra'],
     },
-    'Ezreal Prodigal Explorer.png': {
+    'Ezreal_Prodigal_Explorer.png': {
         'title': 'Ezreal, Prodigal Explorer',
         'type': 'Legendary Creature - Human Artificer',
         'text_box': """""",
@@ -385,7 +385,7 @@ IMAGE_METADATA = {
         'color': ['Blue'],
         'region': ['Piltover']
     },
-    'Fiddlesticks Ancient Fear.png': {
+    'Fiddlesticks_Ancient_Fear.png': {
         'title': 'Fiddlesticks, Ancient Fear',
         'type': 'Legendary Creature - Nightmare Horror',
         'text_box': """""",
@@ -393,7 +393,7 @@ IMAGE_METADATA = {
         'color': ['Black'],
         'region': ['Runeterra']
     },
-    'Fiora Grand Duelist.png': {
+    'Fiora_Grand_Duelist.png': {
         'title': 'Fiora, Grand Duelist',
         'type': 'Legendary Creature - Human Noble',
         'text_box': """First strike
@@ -403,7 +403,7 @@ IMAGE_METADATA = {
         'color': ['White'],
         'region': ['Demacia'],
     },
-    'Fizz the Tidal Trickster.png': {
+    'Fizz_the_Tidal_Trickster.png': {
         'title': 'Fizz, the Tidal Trickster',
         'type': 'Legendary Creature - Fish Assassin',
         'text_box': """""",
@@ -411,7 +411,7 @@ IMAGE_METADATA = {
         'color': ['Blue'],
         'region': ['Runeterra']
     },
-    'Galio the Colossus.png': {
+    'Galio_the_Colossus.png': {
         'title': 'Galio the Colossus',
         'type': 'Legendary Artifact Creature - Golem',
         'text_box': """""",
@@ -419,7 +419,7 @@ IMAGE_METADATA = {
         'color': ['White'],
         'region': ['Demacia']
     },
-    'Gangplank Saltwater Scourge.png': {
+    'Gangplank_Saltwater_Scourge.png': {
         'title': 'Gangplank, Saltwater Scourge',
         'type': 'Legendary Creature - Human Pirate',
         'text_box': """Whenever you attack, create a 1/1 colorless Barrel artifact creature token with “This creature can’t attack or block” and “This creature gets +1/+0 for each other Barrel you control.”
@@ -428,7 +428,7 @@ IMAGE_METADATA = {
         'color': ['Red', 'Black', 'White'],
         'region': ['Bilgewater']
     },
-    'Garen Might of Demacia.png': {
+    'Garen_Might_of_Demacia.png': {
         'title': 'Garen, Might of Demacia',
         'type': 'Legendary Creature - Human Soldier',
         'text_box': """""",
@@ -436,7 +436,7 @@ IMAGE_METADATA = {
         'color': ['White'],
         'region': ['Demacia']
     },
-    'Gnar the Missing Link.png': {
+    'Gnar_the_Missing_Link.png': {
         'title': 'Gnar, the Missing Link // Mega Gnar',
         'type': 'Legendary Creature - Yordle',
         'text_box': """""",
@@ -445,7 +445,7 @@ IMAGE_METADATA = {
         'region': ['The Freljord'],
         'flippable': True
     },
-    'Gwen Hallowed Seamstress.png': {
+    'Gwen_Hallowed_Seamstress.png': {
         'title': 'Gwen, Hallowed Seamstress',
         'type': 'Legendary Creature - Spirit Doll',
         'text_box': """""",
@@ -453,7 +453,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'White', 'Blue'],
         'region': ['Shadow Isles']
     },
-    'Hecarim Shadow of War.png': {
+    'Hecarim_Shadow_of_War.png': {
         'title': 'Hecarim, Shadow of War',
         'type': 'Legendary Creature - Spirit Centaur',
         'text_box': """""",
@@ -461,7 +461,7 @@ IMAGE_METADATA = {
         'color': ['Black'],
         'region': ['Shadow Isles']
     },
-    'Illaoi Kraken Priestess.png': {
+    'Illaoi_Kraken_Priestess.png': {
         'title': 'Illaoi, Kraken Priestess',
         'type': 'Legendary Creature - Human Juggernaut',
         'text_box': """""",
@@ -469,7 +469,7 @@ IMAGE_METADATA = {
         'color': ['Green'],
         'region': ['Bilgewater']
     },
-    'Jhin the Virtuoso.png': {
+    'Jhin_the_Virtuoso.png': {
         'title': 'Jhin, the Virtuoso',
         'type': 'Legendary Creature - Human Assassin',
         'text_box': """Curtain Call — 2BR, T: Jhin deals 1 damage to up to three targets. Then it gains deathtouch until end of turn and deals 1 damage to any target.
@@ -478,7 +478,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Red', 'Blue'],
         'region': ['Ionia']
     },
-    'Jinx Loose Cannon.png': {
+    'Jinx_Loose_Cannon.png': {
         'title': 'Jinx, Loose Cannon',
         'type': 'Legendary Creature - Human Villain',
         'text_box': """Flame Chompers! — T: Target opponent creates three colorless Chomper artifact tokens with “Creatures you control enter the battlefield tapped” and “T, Sacrifice this artifact: You lose 2 life. Activate this ability only at sorcery speed.”
@@ -487,7 +487,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Red', 'Blue'],
         'region': ['Zaun']
     },
-    'KaiSa Daughter of the Void.png': {
+    'KaiSa_Daughter_of_the_Void.png': {
         'title': 'Kai\'Sa, Daughter of the Void',
         'type': 'Legendary Creature - Human Ranger',
         'text_box': """Whenever you draw your first card each turn, you may reveal it. If it’s an artifact card, put your choice of a flying counter, hexproof counter, or menace counter on Kai’Sa.""",
@@ -495,7 +495,7 @@ IMAGE_METADATA = {
         'color': ['Blue', 'Black'],
         'region': ['The Void']
     },
-    'Kalista Spear of Vengeance.png': {
+    'Kalista_Spear_of_Vengeance.png': {
         'title': 'Kalista, Spear of Vengeance',
         'type': 'Legendary Creature - Spirit Ranger',
         'text_box': """""",
@@ -503,7 +503,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'White'],
         'region': ['Shadow Isles']
     },
-    'Karthus the Deathsinger.png': {
+    'Karthus_the_Deathsinger.png': {
         'title': 'Karthus the Deathsinger',
         'type': 'Legendary Creature - Spirit Wizard',
         'text_box': """""",
@@ -511,7 +511,7 @@ IMAGE_METADATA = {
         'color': ['Black'],
         'region': ['Shadow Isles']
     },
-    'Kayle the Righteous.png': {
+    'Kayle_the_Righteous.png': {
         'title': 'Kayle the Righteous',
         'type': 'Legendary Creature - Angel Warrior',
         'text_box': """Flying
@@ -524,7 +524,7 @@ IMAGE_METADATA = {
         'color': ['White', 'Red'],
         'region': ['Demacia'],
     },
-    'Kayn Shadow Reaper.png': {
+    'Kayn_Shadow_Reaper.png': {
         'title': 'Kayn, Shadow Reaper // Kayn, Shadow Assassin',
         'type': 'Legendary Creature - Human Assassin',
         'text_box': """Whenever another creature dies, put a red counter on Kayn. If that creature had flying, put a blue counter on it instead.
@@ -537,7 +537,7 @@ IMAGE_METADATA = {
         'region': ['Ionia'],
         'flippable': True
     },
-    'Kennen Heart of the Tempest.png': {
+    'Kennen_Heart_of_the_Tempest.png': {
         'title': 'Kennen, Heart of the Tempest',
         'type': 'Legendary Creature - Yordle Ninja',
         'text_box': """Ninjutsu 1UR (1UR, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
@@ -546,7 +546,7 @@ IMAGE_METADATA = {
         'color': ['Blue', 'Red'],
         'region': ['Ionia']
     },
-    'Kled Cantankerous Cavalier.png': {
+    'Kled_Cantankerous_Cavalier.png': {
         'title': 'Kled, Cantankerous Cavalier',
         'type': 'Legendary Creature - Yorde Beserker',
         'text_box': """When Kled enters, create Skaarl, a legendary 3/4 red lizard mount creature token with haste, saddle 2, and “Whenever this creature attacks, if it was saddled by Kled, you may have target creature block Skaarl this turn.”
@@ -555,7 +555,7 @@ IMAGE_METADATA = {
         'color': ['Red'],
         'region': ['Noxus']
     },
-    'Lee Sin Blind Monk.png': {
+    'Lee_Sin_Blind_Monk.png': {
         'title': 'Lee Sin, Blind Monk',
         'type': 'Legendary Creature - Human Monk',
         'text_box': """Haste, first strike
@@ -565,7 +565,7 @@ IMAGE_METADATA = {
         'color': ['Red', 'Green'],
         'region': ['Ionia']
     },
-    'Maokai Twisted Treant.png': {
+    'Maokai_Twisted_Treant.png': {
         'title': 'Maokai, Twisted Treant',
         'type': 'Legendary Creature - Treefolk',
         'text_box': """""",
@@ -573,7 +573,7 @@ IMAGE_METADATA = {
         'color': ['Green'],
         'region': ['Shadow Isles']
     },
-    'Master Yi.png': {
+    'Master_Yi.png': {
         'title': 'Master Yi',
         'type': 'Legendary Creature - Human Samurai',
         'text_box': """Alpha Strike — Whenever Master Yi attacks, it deals X damage to up to three target creatures, where X is the amount of life you gained this turn.
@@ -582,7 +582,7 @@ IMAGE_METADATA = {
         'color': ['White', 'Green'],
         'region': ['Ionia']
     },
-    'Mordekaiser Iron Revenant.png': {
+    'Mordekaiser_Iron_Revenant.png': {
         'title': 'Mordekaiser, Iron Revenant',
         'type': 'Legendary Creature - Spirit Juggernaut',
         'text_box': """Trample
@@ -591,7 +591,7 @@ IMAGE_METADATA = {
         'color': ['Black'],
         'region': ['Noxus']
     },
-    'Morgana the Fallen.png': {
+    'Morgana_the_Fallen.png': {
         'title': 'Morgana the Fallen',
         'type': 'Legendary Creature - Angel Wizard',
         'text_box': """Soul Siphon — At the beginning of each opponent’s end step, for each tapped creature they control, that player loses 1 life and you gain 1 life.
@@ -600,7 +600,7 @@ IMAGE_METADATA = {
         'color': ['White', 'Black'],
         'region': ['Demacia'],
     },
-    'Nidalee Bestial Huntress.png': {
+    'Nidalee_Bestial_Huntress.png': {
         'title': 'Nidalee, Bestial Huntress // Nidalee, Cat Form',
         'type': 'Legendary Creature - Human Scout',
         'text_box': """""",
@@ -609,7 +609,7 @@ IMAGE_METADATA = {
         'region': ['Ixtal'],
         'flippable': True
     },
-    'Renata Glasc Chem-Baroness.png': {
+    'Renata_Glasc_Chem-Baroness.png': {
         'title': 'Renata Glasc, Chem-Baroness',
         'type': 'Legendary Creature - Human Scientist',
         'text_box': """Bailout — 3B, T: Until the end of your next turn, you can’t lose the game for having 0 or less life. Choose target opponent. At the beginning of your next end step, if that player is still in the game, you lose the game. Otherwise, your life total becomes 10. Exile Renata Glasc.""",
@@ -617,7 +617,7 @@ IMAGE_METADATA = {
         'color': ['Black'],
         'region': ['Zaun']
     },
-    'Samira the Desert Rose.png': {
+    'Samira_the_Desert_Rose.png': {
         'title': 'Samira, the Desert Rose',
         'type': 'Legendary Creature - Human Mercenary',
         'text_box': """Haste, first strike
@@ -627,7 +627,7 @@ IMAGE_METADATA = {
         'color': ['Red', 'Black'],
         'region': ['Noxus']
     },
-    'Senna the Redeemer.png': {
+    'Senna_the_Redeemer.png': {
         'title': 'Senna the Redeemer',
         'type': 'Legendary Creature - Human Ranger',
         'text_box': """""",
@@ -635,7 +635,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'White'],
         'region': ['Shadow Isles']
     },
-    'Shen Eye of Twilight.png': {
+    'Shen_Eye_of_Twilight.png': {
         'title': 'Shen, Eye of Twilight',
         'type': 'Legendary Creature - Human Ninja',
         'text_box': """When Shen enters, create Spirit Blade, a legendary white Equipment artifact token with “Equipped creature gets +1/+2” and equip 2.
@@ -644,7 +644,7 @@ IMAGE_METADATA = {
         'color': ['White'],
         'region': ['Ionia']
     },
-    'Shyvana the Half-Dragon.png': {
+    'Shyvana_the_Half-Dragon.png': {
         'title': 'Shyvana, the Half-Dragon // Shyvana, Dragon Form',
         'type': 'Legendary Creature - Human Dragon',
         'text_box': """Twin Bite — T: Copy target instant or sorcery spell you control. You may choose new targets for the copy.
@@ -657,7 +657,7 @@ IMAGE_METADATA = {
         'region': ['Demacia'],
         'flippable': True
     },
-    'Singed Mad Chemist.png': {
+    'Singed_Mad_Chemist.png': {
         'title': 'Singed, Mad Chemist',
         'type': 'Legendary Creature - Human Scientist',
         'text_box': """Menace
@@ -666,7 +666,7 @@ IMAGE_METADATA = {
         'color': ['Black'],
         'region': ['Zaun']
     },
-    'Sion Undead Juggernaut.png': {
+    'Sion_Undead_Juggernaut.png': {
         'title': 'Sion, Undead Juggernaut',
         'type': 'Legendary Creature - Zombie Juggernaut',
         'text_box': """Trample, menace
@@ -675,7 +675,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Red'],
         'region': ['Noxus']
     },
-    'Smolder Fiery Fledgling.png': {
+    'Smolder_Fiery_Fledgling.png': {
         'title': 'Smolder, Fiery Fledgling',
         'type': 'Legendary Creature - Dragon Wizard',
         'text_box': """Flying
@@ -685,7 +685,7 @@ IMAGE_METADATA = {
         'color': ['Red'],
         'region': ['Noxus']
     },
-    'Sona Maven of the Strings.png': {
+    'Sona_Maven_of_the_Strings.png': {
         'title': 'Sona, Maven of the Strings',
         'type': 'Legendary Creature - Human Performer',
         'text_box': """At the beginning of your upkeep, choose target Aura you control that’s attached to a creature. For each other creature you control that the Aura could enchant, create a token that’s a copy of that Aura and attach it to that creature. Sacrifice those tokens at the beginning of the next end step.""",
@@ -693,7 +693,7 @@ IMAGE_METADATA = {
         'color': ['Blue'],
         'region': ['Demacia'],
     },
-    'Swain Grand General.png': {
+    'Swain_Grand_General.png': {
         'title': 'Swain, Grand General',
         'type': 'Legendary Creature - Human Warlock',
         'text_box': """Menace
@@ -703,7 +703,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Red'],
         'region': ['Noxus']
     },
-    'Sylas the Unshackled.png': {
+    'Sylas_the_Unshackled.png': {
         'title': 'Sylas the Unshackled',
         'type': 'Legendary Creature - Human Criminal',
         'text_box': """Suspend 3 1UU 
@@ -714,7 +714,7 @@ IMAGE_METADATA = {
         'color': ['Blue'],
         'region': ['Demacia']
     },
-    'Taliyah Stoneweaver.png': {
+    'Taliyah_Stoneweaver.png': {
         'title': 'Taliyah, Stoneweaver',
         'type': 'Legendary Creature - Human Wizard',
         'text_box': """Landfall — Whenever a land enters the battlefield under your control, you may have it become a 0/4 red Wall creature with defender and haste in addition to its other types. 
@@ -723,7 +723,7 @@ IMAGE_METADATA = {
         'color': ['Red', 'Green', 'White', 'Blue'],
         'region': ['Shurima']
     },
-    'Thresh Chain Warden.png': {
+    'Thresh_Chain_Warden.png': {
         'title': 'Thresh, Chain Warden',
         'type': 'Legendary Creature - Spirit',
         'text_box': """""",
@@ -731,7 +731,7 @@ IMAGE_METADATA = {
         'color': ['Black'],
         'region': ['Shadow Isles']
     },
-    'Urgot the Dreadnought.png': {
+    'Urgot_the_Dreadnought.png': {
         'title': 'Urgot, the Dreadnought',
         'type': 'Legendary Artifact Creature - Human Crab',
         'text_box': """Infect
@@ -741,7 +741,7 @@ IMAGE_METADATA = {
         'color': ['Black'],
         'region': ['Zaun']
     },
-    'Varus Darkin Arrow.png': {
+    'Varus_Darkin_Arrow.png': {
         'title': 'Varus, Darkin Arrow',
         'type': 'Legendary Creature - Demon Archer',
         'text_box': """Reach
@@ -751,7 +751,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Blue'],
         'region': ['Ionia']
     },
-    'Vayne Night Hunter.png': {
+    'Vayne_Night_Hunter.png': {
         'title': 'Vayne, Night Hunter',
         'type': 'Legendary Creature - Human Ranger',
         'text_box': """""",
@@ -759,7 +759,7 @@ IMAGE_METADATA = {
         'color': ['White'],
         'region': ['Shadow Isles']
     },
-    'Vex the Gloomist.png': {
+    'Vex_the_Gloomist.png': {
         'title': 'Vex the Gloomist',
         'type': 'Legendary Creature - Yordle Wizard',
         'text_box': """""",
@@ -767,7 +767,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Blue'],
         'region': ['Shadow Isles']
     },
-    'Viego Ruined King.png': {
+    'Viego_Ruined_King.png': {
         'title': 'Viego, Ruined King',
         'type': 'Legendary Creature - Noble Shapeshifter',
         'text_box': """Harrowed Path — When Viego enters, target land you control gains “1, T: Target creature you control gains Shadow until end of turn” for as long as you control Viego. 
@@ -776,7 +776,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Green', 'Blue'],
         'region': ['Shadow Isles']
     },
-    'Viktor Herald of Arcane.png': {
+    'Viktor_Herald_of_Arcane.png': {
         'title': 'Viktor, Herald of Arcane',
         'type': 'Legendary Creature - Human Artificer',
         'text_box': """Glorious Evolution — At the beginning of your end step, you may exile a Human you control. If you do, create a 3/3 colorless artifact Construct creature token, then choose one —
@@ -787,7 +787,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'White', 'Blue'],
         'region': ['Zaun']
     },
-    'Vladimir Crimson Reaper.png': {
+    'Vladimir_Crimson_Reaper.png': {
         'title': 'Vladimir, Crimson Reaper',
         'type': 'Legendary Creature - Vampire Wizard',
         'text_box': """Lifelink
@@ -797,7 +797,7 @@ IMAGE_METADATA = {
         'color': ['Red', 'Black', 'White'],
         'region': ['Noxus']
     },
-    'Warwick Wrath of Zaun.png': {
+    'Warwick_Wrath_of_Zaun.png': {
         'title': 'Warwick, Wrath of Zaun',
         'type': 'Legendary Creature - Wolf Berserker',
         'text_box': """Eternal Hunger — As long as an opponent has 10 or less life, Warwick has haste.
@@ -806,7 +806,7 @@ IMAGE_METADATA = {
         'color': ['Green', 'Red'],
         'region': ['Zaun']
     },
-    'Yasuo the Unforgiven.png': {
+    'Yasuo_the_Unforgiven.png': {
         'title': 'Yasuo the Unforgiven',
         'type': 'Legendary Creature - Human Samurai',
         'text_box': """Vigilance
@@ -817,7 +817,7 @@ IMAGE_METADATA = {
         'color': ['Blue', 'White'],
         'region': ['Ionia'],
     },
-    'Yone the Unforgotten.png': {
+    'Yone_the_Unforgotten.png': {
         'title': 'Yone the Unforgotten',
         'type': 'Legendary Creature - Spirit Samurai',
         'text_box': """Soul Unbound — 2UB, T: Target opponent creates a token copy of Yone, except it loses all abilities and gains “This creature can’t attack or block” and “At the beginning of each combat, sacrifice another creature.” 
@@ -827,7 +827,7 @@ IMAGE_METADATA = {
         'color': ['Blue', 'Black'],
         'region': ['Ionia']
     },
-    'Yorick Shepherd of Souls.png': {
+    'Yorick_Shepherd_of_Souls.png': {
         'title': 'Yorick, Shepherd of Souls',
         'type': 'Legendary Creature - ',
         'text_box': """""",
@@ -835,7 +835,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Green', 'White'],
         'region': ['Shadow Isles']
     },
-    'Zed Master of Shadows.png': {
+    'Zed_Master_of_Shadows.png': {
         'title': 'Zed, Master of Shadows',
         'type': 'Legendary Creature - Human Ninja',
         'text_box': """Living Shadow — At the beginning of combat on your turn, for each opponent, create a 3/1 black and red Shadow Clone creature token with haste. Exile those tokens at the end of combat.
@@ -844,7 +844,7 @@ IMAGE_METADATA = {
         'color': ['Black', 'Red'],
         'region': ['Ionia']
     },
-    'Zyra Rise of the Thorns.png': {
+    'Zyra_Rise_of_the_Thorns.png': {
         'title': 'Zyra, Rise of the Thorns',
         'type': 'Legendary Creature - Human Plant',
         'text_box': """Garden of Thorns — At the beginning of your upkeep, create a 0/1 green Saproling creature token.
