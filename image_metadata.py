@@ -13,8 +13,10 @@ TOKEN_MAPPING = {
     'Kayn_Shadow_Reaper.png': ['Kayn_token.png'],
     'Kled_Cantankerous_Cavalier.png': ['Kled_token.png'],
     'Shen_Eye_of_Twilight.png': ['Shen_token.png'],
+    'Swain_Grand_General.png': ['Swain_token.png'],
     'Viktor_Herald_of_Arcane.png': ['Viktor_token.png'],
-    'Zed Master_of_Shadows.png': ['Zed_token.png']
+    'Zed Master_of_Shadows.png': ['Zed_token.png'],
+    'Zyra_Rise_of_the_Thorns.png': ['Zyra_token.png', 'Zyra_token2.png']
 }
 
 # Token metadata - detailed information about each token
@@ -31,8 +33,8 @@ TOKEN_METADATA = {
     },
     'Azir_token.png': {
         'title': 'Sand Soldier Token',
-        'type': 'Token Creature - Soldier',
-        'text_box': 'Vigilance, Haste\nSand Soldier tokens you control get +1/+1 for each Desert you control.'
+        'type': 'Token Creature - Elemental Soldier',
+        'text_box': 'Vigilance, Haste.'
     },
     'Azir_token2.png': {
         'title': 'Disc of the Sun',
@@ -69,12 +71,23 @@ TOKEN_METADATA = {
     'Viktor_token.png': {
         'title': 'Construct Token',
         'type': 'Token Artifact Creature - Construct',
-        'text_box': 'Artifact creature tokens you control get +1/+1 counters when Viktor\'s ability resolves.'
+        
     },
     'Zed_token.png': {
         'title': 'Shadow Clone Token',
         'type': 'Token Creature - Human Ninja',
         'text_box': 'Haste\nExile this token at the end of combat.'
+    },
+    'Zyra_token.png': {
+        'title': 'Seed Token',
+        'type': 'Token Creature - Seed',
+        'text_box': '''This creature can’t attack or block.
+                \nWhenever you cast a noncreature spell, put a number of +1/+1 counters on this creature equal to that spells converted mana cost. Then transform this creature.'''
+    },
+    'Zyra_token2.png': {
+        'title': 'Spitter Token',
+        'type': 'Token Creature - Plant',
+        'text_box': '''Haste'''
     }
 }
 
@@ -445,6 +458,17 @@ IMAGE_METADATA = {
         'region': ['The Freljord'],
         'flippable': True
     },
+    'Graves_the_Outlaw.png': {
+        'title': 'Graves, the Outlaw',
+        'type': 'Legendary Creature - Human Mercenary',
+        'text_box': """Whenever you commit a crime for the first time each turn, choose one —
+                \n• Create a Treasure token.
+                \n• Draw a card, then discard a card.
+                \nDouble Barrel — T: Copy target instant or sorcery spell you control. You may choose new targets for the copy. Graves doesn’t untap during your next untap step.""",
+        'artist': 'Mclean Kendree',
+        'color': ['Red'],
+        'region': ['Bilgewater']
+    },
     'Gwen_Hallowed_Seamstress.png': {
         'title': 'Gwen, Hallowed Seamstress',
         'type': 'Legendary Creature - Spirit Doll',
@@ -730,6 +754,14 @@ IMAGE_METADATA = {
         'artist': 'Michal Ivan',
         'color': ['Black'],
         'region': ['Shadow Isles']
+    },
+    'Tryndamere_Barbarian_King.png': {
+        'title': 'Tryndamere, Barbarian King',
+        'type': 'Legendary Creature - Human Barbarian',
+        'text_box': """""",
+        'artist': 'SixMoreVodka',
+        'color': ['Red', 'Green', 'White'],
+        'region': ['The Freljord']
     },
     'Urgot_the_Dreadnought.png': {
         'title': 'Urgot, the Dreadnought',
