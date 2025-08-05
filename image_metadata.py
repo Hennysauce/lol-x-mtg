@@ -12,6 +12,7 @@ TOKEN_MAPPING = {
     'Gangplank_Saltwater_Scourge.png': ['Gangplank_barrel.png'],
     'Kayn_Shadow_Reaper.png': ['Kayn_token.png'],
     'Kled_Cantankerous_Cavalier.png': ['Kled_token.png'],
+    'Shaco_Demon_Jester.png': ['Shaco_token.png'],
     'Shen_Eye_of_Twilight.png': ['Shen_token.png'],
     'Swain_Grand_General.png': ['Swain_token.png'],
     'Viktor_Herald_of_Arcane.png': ['Viktor_token.png'],
@@ -62,6 +63,12 @@ TOKEN_METADATA = {
         'text_box': """Haste
                 \nSaddle 2
                 \nWhenever this creature attacks, if it was saddled by Kled, you may have target creature block Skaarl this turn."""
+    },
+    'Shaco_token.png': {
+        'title': 'Shaco, Demon Jester Copy',
+        'type': 'Token Creature - Clown Assassin',
+        'text_box': '''Shroud
+                \nWhenever this creature dies, reveal the creature you chose. If you chose this creature, each opponent sacrifices a creature and loses 5 life. Otherwise, sacrifice each other creature named Shaco, Demon Jester.'''
     },
     'Shen_token.png': {
         'title': 'Spirit Blade',
@@ -528,10 +535,12 @@ IMAGE_METADATA = {
         'region': ['Shadow Isles']
     },
     'Karthus_the_Deathsinger.png': {
-        'title': 'Karthus the Deathsinger',
+        'title': 'Karthus, the Deathsinger',
         'type': 'Legendary Creature - Spirit Wizard',
-        'text_box': """""",
-        'artist': 'DanRobArt',
+        'text_box': """Lay Waste —Whenever another creature dies, if Karthus is untapped, it deals 1 damage to any target.
+                \nRequiem — 4BB, T: Karthus deals 5 damage to each creature an opponent controls. Activate only as a sorcery.
+                \nWhen Karthus dies, if it was a creature, return it to the battlefield under its owner’s control. It’s an enchantment. Sacrifice it at the beginning of your next end step. (It’s not a creature)""",
+        'artist': 'HuangQun',
         'color': ['Black'],
         'region': ['Shadow Isles']
     },
@@ -633,6 +642,14 @@ IMAGE_METADATA = {
         'region': ['Ixtal'],
         'flippable': True
     },
+    'Qiyana_Elemental_Empress.png': {
+        'title': 'Qiyana, Elemental Empress',
+        'type': 'Legendary Creature - Human Shaman',
+        'text_box': """T, Sacrifice a land: Exile cards from the top of your library until you exile a land card. Reveal that card and put it into your hand. You may cast one of the exiled nonland cards without paying its mana cost if it shares a color with a color the revealed land could produce. Put the remaining exiled cards on the bottom of your library in a random order. """,
+        'artist': 'Qi Jingyan',
+        'color': ['Red', 'Black', 'Green', 'Blue'],
+        'region': ['Ixtal'],
+    },
     'Renata_Glasc_Chem-Baroness.png': {
         'title': 'Renata Glasc, Chem-Baroness',
         'type': 'Legendary Creature - Human Scientist',
@@ -640,6 +657,16 @@ IMAGE_METADATA = {
         'artist': 'Grafit',
         'color': ['Black'],
         'region': ['Zaun']
+    },
+    'Rengar_Pridestalker.png': {
+        'title': 'Rengar, Pridestalker',
+        'type': 'Legendary Creature - Cat Assassin',
+        'text_box': """Deathtouch
+                \nAs long as you control a Forest, Rengar has double strike during your turn.
+                \nWhen Rengar enters, create Bonetooth Necklace, a legendary Equipment artifact token with “Whenever a legendary creature an opponent controls dies, put a +1/+1 counter on equipped creature” and Equip 2. Then attach Bonetooth Necklace to Rengar.""",
+        'artist': 'Pablo Vicente Sánchez',
+        'color': ['Black', 'Green', 'Red'],
+        'region': ['Ixtal']
     },
     'Samira_the_Desert_Rose.png': {
         'title': 'Samira, the Desert Rose',
@@ -658,6 +685,16 @@ IMAGE_METADATA = {
         'artist': 'Alsoing',
         'color': ['Black', 'White'],
         'region': ['Shadow Isles']
+    },
+    'Shaco_Demon_Jester.png': {
+        'title': 'Shaco, Demon Jester',
+        'type': 'Legendary Creature - Clown Assassin',
+        'text_box': """Shroud
+                \nT, Exile this creature: Create two token copies of Shaco, except they aren’t legendary and don’t have this ability. Secretly choose one of them. 
+                \nWhenever this creature dies, reveal the creature you chose. If you chose this creature, each opponent sacrifices a creature and loses 5 life. Otherwise, sacrifice each other creature named Shaco, Demon Jester.""",
+        'artist': 'Vid Radojkovic',
+        'color': ['Black'],
+        'region': ['Runeterra']
     },
     'Shen_Eye_of_Twilight.png': {
         'title': 'Shen, Eye of Twilight',
@@ -758,7 +795,9 @@ IMAGE_METADATA = {
     'Tryndamere_Barbarian_King.png': {
         'title': 'Tryndamere, Barbarian King',
         'type': 'Legendary Creature - Human Barbarian',
-        'text_box': """""",
+        'text_box': """Undying Rage — As long as its your turn, Tryndamere has indestructible.
+                \nWhenever Tryndamere is dealt damage, put a fury counter on it for each damage dealt. During your next combat phase, Tryndamere must attack if able.
+                \nBloodlust — Whenever Tryndamere attacks, remove all fury counters from it. It gets +1/+0 until end of turn for each counter removed this way.""",
         'artist': 'SixMoreVodka',
         'color': ['Red', 'Green', 'White'],
         'region': ['The Freljord']
@@ -828,6 +867,16 @@ IMAGE_METADATA = {
         'artist': 'SixMoreVodka',
         'color': ['Red', 'Black', 'White'],
         'region': ['Noxus']
+    },
+    'Volibear_Relentless_Storm.png': {
+        'title': 'Volibear, Relentless Storm',
+        'type': 'Legendary Snow Creature - Bear Spirit God',
+        'text_box': """You can’t cast this spell unless snow creatures you control have total power 15 or greater.
+                \nIndestructible, haste
+                \nStormbringer — When Volibear enters, tap all non-snow permanents. Until end of turn, whenever Volibear deals combat damage to an opponent, it deals that much damage to each other opponent.""",
+        'artist': 'G G 568250072',
+        'color': ['Red', 'Green', 'Blue'],
+        'region': ['The Freljord']
     },
     'Warwick_Wrath_of_Zaun.png': {
         'title': 'Warwick, Wrath of Zaun',
