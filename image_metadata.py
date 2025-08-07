@@ -434,7 +434,10 @@ IMAGE_METADATA = {
     'Galio_the_Colossus.png': {
         'title': 'Galio the Colossus',
         'type': 'Legendary Artifact Creature - Golem',
-        'text_box': """""",
+        'text_box': """Flying, ward 2
+                \nGalio doesn’t untap during your untap step. 
+                \nWhenever another creature you control becomes the target of a spell or ability an opponent controls, untap Galio. 
+                \nHero’s Entrance — Whenever Galio becomes untapped, other creatures you control gain hexproof until end of turn. """,
         'artist': 'Will Gist',
         'color': ['White'],
         'region': ['Demacia']
@@ -586,6 +589,17 @@ IMAGE_METADATA = {
                 \nCHAAAAAAARGE!!! — 1RR: Creatures you control gain haste and first strike until end of turn.""",
         'artist': 'Hozure',
         'color': ['Red'],
+        'region': ['Noxus']
+    },
+    'LeBlanc_the_Deceiver.png': {
+        'title': 'LeBlanc, the Deceiver',
+        'type': 'Legendary Creature - Human Wizard',
+        'text_box': """Whenever a player casts a noncreature spell, you may choose one that hasn’t been chosen since your last upkeep —
+                \n• Mimic — Copy target spell, you may choose new targets for the copy.
+                \n• Misdirect — Goad target creature an opponent controls.
+                \n• Conspire — You and target opponent each draw a card and lose 1 life.""",
+        'artist': 'SixMoreVodka',
+        'color': ['Black', 'Red', 'Blue'],
         'region': ['Noxus']
     },
     'Lee_Sin_Blind_Monk.png': {
