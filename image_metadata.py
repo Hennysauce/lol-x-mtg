@@ -595,7 +595,7 @@ IMAGE_METADATA = {
         'title': 'LeBlanc, the Deceiver',
         'type': 'Legendary Creature - Human Wizard',
         'text_box': """Whenever a player casts a noncreature spell, you may choose one that hasn’t been chosen since your last upkeep —
-                \n• Mimic — Copy target spell, you may choose new targets for the copy.
+                \n• Mimic — Discard a card. Copy target spell, you may choose new targets for the copy.
                 \n• Misdirect — Goad target creature an opponent controls.
                 \n• Conspire — You and target opponent each draw a card and lose 1 life.""",
         'artist': 'SixMoreVodka',
@@ -647,6 +647,16 @@ IMAGE_METADATA = {
         'color': ['White', 'Black'],
         'region': ['Demacia'],
     },
+    'Nasus_Curator_of_the_Sands.png': {
+        'title': 'Nasus, Curator of the Sands',
+        'type': 'Legendary Creature - Dog Demigod',
+        'text_box': """Lifelink, wither, indestructible
+                \nNasus has trample as long as its power is 10 or greater.
+                \nWhenever a creature with a -1/-1 counter on it dies, put a +1/+1 counter on Nasus, then draw a card.""",
+        'artist': 'Will Gist',
+        'color': ['Black', 'Green', 'Blue', 'White'],
+        'region': ['Shurima']
+    },
     'Nidalee_Bestial_Huntress.png': {
         'title': 'Nidalee, Bestial Huntress // Nidalee, Cat Form',
         'type': 'Legendary Creature - Human Scout',
@@ -659,7 +669,8 @@ IMAGE_METADATA = {
     'Qiyana_Elemental_Empress.png': {
         'title': 'Qiyana, Elemental Empress',
         'type': 'Legendary Creature - Human Shaman',
-        'text_box': """T, Sacrifice a land: Exile cards from the top of your library until you exile a land card. Reveal that card and put it into your hand. You may cast one of the exiled nonland cards without paying its mana cost if it shares a color with a color the revealed land could produce. Put the remaining exiled cards on the bottom of your library in a random order. """,
+        'text_box': """Landfall — Whenever a land enters the battlefield under your control, exile the top card of your library with a Terrain counter on it. 
+                \nT, Sacrifice a land: You may cast a card exiled with a Terrain counter on it without paying its mana cost if it shares a color with mana the sacrificed land could produce. """,
         'artist': 'Qi Jingyan',
         'color': ['Red', 'Black', 'Green', 'Blue'],
         'region': ['Ixtal'],
@@ -671,6 +682,16 @@ IMAGE_METADATA = {
         'artist': 'Grafit',
         'color': ['Black'],
         'region': ['Zaun']
+    },
+    'Renekton_Butcher_of_the_Sands.png': {
+        'title': 'Renekton, Butcher of the Sands',
+        'type': 'Legendary Creature - Crocodile Demigod',
+        'text_box': """Menace, indestructible
+                \nWhen Renekton enters, creatures you control gain haste and double strike until end of turn.
+                \nWhenever a nontoken creature an opponent controls dies after being dealt damage by Renekton this turn, you may exile that creature and Renekton. Return those cards to the battlefield under your control at the beginning of your next upkeep.""",
+        'artist': 'Will Gist',
+        'color': ['Black', 'Green', 'Red', 'White'],
+        'region': ['Shurima']
     },
     'Rengar_Pridestalker.png': {
         'title': 'Rengar, Pridestalker',
@@ -793,9 +814,9 @@ IMAGE_METADATA = {
         'title': 'Taliyah, Stoneweaver',
         'type': 'Legendary Creature - Human Wizard',
         'text_box': """Landfall — Whenever a land enters the battlefield under your control, you may have it become a 0/4 red Wall creature with defender and haste in addition to its other types. 
-                \nAs long as it’s your turn, Walls you control assign combat damage equal to their toughness rather than its power and can attack as though it didn’t have defender.""",
+                \nAs long as it’s your turn, Walls you control assign combat damage equal to their toughness rather than their power and can attack as though they didn’t have defender.""",
         'artist': 'Qi Mang',
-        'color': ['Red', 'Green', 'White', 'Blue'],
+        'color': ['Red', 'Green', 'White'],
         'region': ['Shurima']
     },
     'Thresh_Chain_Warden.png': {
@@ -885,7 +906,7 @@ IMAGE_METADATA = {
     'Volibear_Relentless_Storm.png': {
         'title': 'Volibear, Relentless Storm',
         'type': 'Legendary Snow Creature - Bear Spirit God',
-        'text_box': """You can’t cast this spell unless snow creatures you control have total power 15 or greater.
+        'text_box': """Volibear costs X less to cast, where X is the total power of snow creatures you control.
                 \nIndestructible, haste
                 \nStormbringer — When Volibear enters, tap all non-snow permanents. Until end of turn, whenever Volibear deals combat damage to an opponent, it deals that much damage to each other opponent.""",
         'artist': 'G G 568250072',
